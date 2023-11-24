@@ -10,9 +10,18 @@
     flex-basis: 30%;
 }
 
+.w-40 {
+    flex-basis: 40%;
+}
+
+.w-60 {
+    flex-basis: 60%;
+}
+
 .w-70 {
     flex-basis: 70%;
 }
+
 
 /*generals*/
 body {
@@ -30,6 +39,7 @@ h1 {
 }
 
 .small-container {
+    display: flex;
     max-width: 60%;
     margin: 0 auto;
     padding: 50px;
@@ -86,10 +96,12 @@ header {
     flex-wrap: wrap;
     flex-direction: row;
     gap: 50px;
+    flex-basis: 100%;
 }
 
 .business-plans .col {
     flex-basis: calc(100% / 3 - 100px / 3);
+
 }
 
 .business-plans .full-col {
@@ -99,4 +111,10 @@ header {
 .plan-card {
     border: 2px dashed;
     min-height: 350px;
+}
+
+/*partnet*/
+.small-container div {
+    min-height: 500px;
+    border: 2px dashed;
 }
