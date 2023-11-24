@@ -4,3 +4,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*generals*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*header*/
+header {
+    display: flex;
+    position: sticky;
+    height: 80px;
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 2px dashed;
+
+}
+
+.navbar-left {
+    border: 2px dashed;
+}
+
+.navbar-right {
+    border: 2px dashed;
+}
