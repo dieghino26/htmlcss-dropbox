@@ -5,15 +5,38 @@
     box-sizing: border-box;
 }
 
+/*utils*/
+.w-30 {
+    flex-basis: 30%;
+}
+
+.w-70 {
+    flex-basis: 70%;
+}
+
 /*generals*/
 body {
     font-family: 'Open Sans', sans-serif;
 }
 
+h1 {
+    font-size: 4.6rem;
+    font-weight: 800;
+}
+
+.big-container {
+    flex-basis: 60%;
+    flex-wrap: wrap
+}
+
+
 /*header*/
 header {
     display: flex;
-    position: sticky;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     height: 80px;
     background-color: aqua;
     justify-content: space-between;
@@ -28,5 +51,25 @@ header {
 }
 
 .navbar-right {
+    border: 2px dashed;
+}
+
+/*jumbotron*/
+.jumbotron {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    min-height: 750px;
+    border: 2px dashed;
+}
+
+.big-container {
+    display: flex;
+    border: 2px dashed;
+
+}
+
+.big-container div {
+    min-height: 600px;
     border: 2px dashed;
 }
