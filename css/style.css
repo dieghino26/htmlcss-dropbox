@@ -113,8 +113,28 @@ header {
     min-height: 350px;
 }
 
-/*partnet*/
 .small-container div {
     min-height: 500px;
     border: 2px dashed;
+}
+
+/*business-operation*/
+.operation-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 50px;
+    border: 2px dashed;
+    gap: 30px;
+}
+
+.operation-container div {
+    min-height: 500px;
+    border: 2px dashed;
+}
+
+.col {
+
+    flex-basis: calc(100% / 3 - 60px / 3);
 }
