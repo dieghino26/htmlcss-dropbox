@@ -27,6 +27,15 @@
     background-color: #0061FF;
     padding: 10px 15px;
     display: inline-block;
+    margin: 30px 0px;
+
+}
+
+.reverse-button {
+    color: #0061FF;
+    background-color: #fff;
+    padding: 10px 15px;
+    display: inline-block;
 
 }
 
@@ -69,6 +78,36 @@ img {
     display: block;
 }
 
+.plan-header {
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid rgb(128, 128, 128, 0.5);
+}
+
+.plan-main {
+    padding: 0px 40px;
+}
+
+ul li {
+    list-style: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.duration {
+    display: block;
+    color: rgb(128, 128, 128, );
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 30px 0px;
+}
+
+.fa-check {
+    color: #0061FF;
+}
+
 /*header*/
 header {
     display: flex;
@@ -76,6 +115,7 @@ header {
     align-items: center;
 
     position: fixed;
+    z-index: 1;
     top: 0;
     right: 0;
     left: 0;
@@ -106,7 +146,7 @@ a img {
     justify-content: center;
     min-height: 750px;
     background-color: #B4D0E7;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 .big-container {
@@ -115,7 +155,7 @@ a img {
 }
 
 .big-container p {
-    margin-bottom: 30px;
+
     font-size: 1.2rem;
 }
 
@@ -127,18 +167,22 @@ a img {
     margin-top: 150px;
 }
 
+.w-70 img {
+    translate: 0px 70px;
+}
 
 /*business-plans*/
+
 .business-plans {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 50px;
+    gap: 40px;
     flex-basis: 100%;
 }
 
 .business-plans .col {
-    flex-basis: calc(100% / 3 - 100px / 3);
+    flex-basis: calc(100% / 3 - 80px / 3);
 
 }
 
@@ -147,13 +191,45 @@ a img {
 }
 
 .plan-card {
-    border: 2px dashed;
-    min-height: 350px;
+    border: 1px solid rgb(128, 128, 128, 0.5);
+    min-height: 1000px;
 }
 
-.small-container div {
-    min-height: 500px;
-    border: 2px dashed;
+.big-plan-card {
+    border: 1px solid rgb(128, 128, 128, 0.5);
+}
+
+.plan-main div a {
+    text-decoration: underline;
+    color: #0061FF;
+}
+
+.divisor {
+    max-width: 50px;
+    border-bottom: 1px solid gray;
+    margin: 30px 0px;
+}
+
+.plan-main>a {
+    display: block;
+    text-align: center;
+}
+
+.big-plan-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+
+}
+
+.big-plan-main p {
+    margin-top: 50px;
+}
+
+.big-plan-main a {
+    display: block;
+    text-align: center;
+
 }
 
 /*business-operation*/
@@ -199,7 +275,13 @@ a img {
 .big-box {
     display: flex;
     flex-wrap: wrap;
+
     width: calc(100vw / 3);
     height: calc(100vw / 3);
+
     border: 2px dashed;
+}
+
+.box img {
+    width: 50%;
 }
