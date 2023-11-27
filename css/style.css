@@ -186,29 +186,20 @@ a img {
 
 .sponsors-container {
     display: flex;
-    flex-wrap: wrap;
     margin: 0 auto;
     border: 2px dashed black;
 }
 
-.left-sponsors {
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: calc(100% / 3);
-}
-
-.right-sponsors {
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: calc(100% / 3)
-}
-
 .box {
+    width: 50%;
+    height: 50%;
     border: 2px dashed;
-
 }
 
 .big-box {
-    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
     border: 2px dashed;
 }
