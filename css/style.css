@@ -22,6 +22,13 @@
     flex-basis: 70%;
 }
 
+.button {
+    color: #fff;
+    background-color: #0061FF;
+    padding: 10px 15px;
+    display: inline-block;
+
+}
 
 /*generals*/
 body {
@@ -29,12 +36,14 @@ body {
 }
 
 h1 {
+    padding-top: 50px;
     font-size: 5rem;
     font-weight: 800;
+    margin-bottom: 50px;
 }
 
 .big-container {
-    flex-basis: 70%;
+    flex-basis: 65%;
     flex-wrap: wrap
 }
 
@@ -46,28 +55,48 @@ h1 {
     border: 2px dashed;
 }
 
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
 /*header*/
 header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
+
     height: 80px;
-    background-color: aqua;
-    justify-content: space-between;
-    align-items: center;
+
+    background-color: #fff;
+    box-shadow: 0 1px 3px #666;
     padding: 20px;
-    border: 2px dashed;
 
 }
 
-.navbar-left {
-    border: 2px dashed;
+header ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
 
-.navbar-right {
-    border: 2px dashed;
+a img {
+    max-width: 100%;
+    display: block;
 }
 
 /*jumbotron*/
@@ -76,19 +105,28 @@ header {
     display: flex;
     justify-content: center;
     min-height: 750px;
-    border: 2px dashed;
+    background-color: #B4D0E7;
+    margin-bottom: 50px;
 }
 
 .big-container {
     display: flex;
-    border: 2px dashed;
 
 }
 
-.big-container div {
-    min-height: 600px;
-    border: 2px dashed;
+.big-container p {
+    margin-bottom: 30px;
+    font-size: 1.2rem;
 }
+
+.w-30 a {
+    margin-bottom: 30px;
+}
+
+.fa-arrow-down {
+    margin-top: 150px;
+}
+
 
 /*business-plans*/
 .business-plans {
