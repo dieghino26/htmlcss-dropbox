@@ -400,4 +400,31 @@ a img {
 .questions .small-container {
     margin-top: 0;
     padding-top: 0;
+    margin-bottom: 70px;
+}
+
+/*footer*/
+
+.main-footer {
+    display: flex;
+    background-color: black;
+    color: #fff;
+}
+
+.big-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+
+}
+
+.language {
+    background-color: black;
+    color: #fff;
+    display: flex;
+}
+
+footer .divisor {
+    display: inline;
 }
