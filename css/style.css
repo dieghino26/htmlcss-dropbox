@@ -380,4 +380,24 @@ a img {
 
 .free-trial .w-70 {
     padding-right: 250px;
+    font-weight: bolder;
+}
+
+.questions .divisor {
+    color: black;
+    max-width: 100%;
+}
+
+.questions .fa-solid {
+    padding-left: 270px;
+}
+
+.questions .text-container {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.questions .small-container {
+    margin-top: 0;
+    padding-top: 0;
 }
