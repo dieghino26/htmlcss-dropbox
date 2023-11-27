@@ -6,6 +6,42 @@
 }
 
 /*utils*/
+.background-green {
+    background-color: #A2D39B;
+}
+
+.background-purple {
+    background-color: #61082B;
+}
+
+.background-ciano {
+    background-color: #0093CE;
+}
+
+.background-red {
+    background-color: #FF1C1C;
+}
+
+.background-lightgrey {
+    background-color: #F5F5F5;
+}
+
+.background-darkred {
+    background-color: #D5001F;
+}
+
+.background-azzurro {
+    background-color: #B4D0E7;
+}
+
+.background-blue {
+    background-color: #0D2481;
+}
+
+.background-yellow {
+    background-color: #FFD830;
+}
+
 .w-30 {
     flex-basis: 30%;
 }
@@ -55,7 +91,7 @@ h1 {
 
 .big-container {
     flex-basis: 65%;
-    flex-wrap: wrap
+    flex-wrap: wrap;
 }
 
 .small-container {
@@ -63,7 +99,6 @@ h1 {
     max-width: 60%;
     margin: 0 auto;
     padding: 50px;
-    border: 2px dashed;
 }
 
 ul {
@@ -183,6 +218,7 @@ a img {
     width: 60%;
     margin: 0 auto;
     margin-bottom: 30px;
+    padding: 50px;
 }
 
 .business-plans {
@@ -255,14 +291,14 @@ a img {
     flex-wrap: wrap;
     max-width: 60%;
     margin: 0 auto;
-    padding: 50px;
-    border: 2px dashed;
+    padding: 0px 50px;
     gap: 30px;
 }
 
+
 .operation-container div {
     min-height: 500px;
-    border: 2px dashed;
+
 }
 
 .col {
@@ -272,33 +308,76 @@ a img {
 
 /*sponsors*/
 .text-container {
+    display: flex;
     max-width: 60%;
     margin: 0 auto;
-    border: 2px dashed black;
+    padding: 50px;
+    padding-right: 500px;
+    flex-direction: column;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.text-container a {
+    text-decoration: underline;
+    color: #0061FF;
 }
 
 .sponsors-container {
     display: flex;
     margin: 0 auto;
-    border: 2px dashed black;
 }
 
 .box {
     width: 50%;
     height: 50%;
-    border: 2px dashed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .big-box {
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
+
 
     width: calc(100vw / 3);
     height: calc(100vw / 3);
-
-    border: 2px dashed;
 }
 
 .box img {
     width: 50%;
+    filter: invert(1);
+}
+
+.big-box+.background-lightgrey {
+    padding: 50px;
+}
+
+.big-box+.background-lightgrey img {
+    width: 45%;
+}
+
+/*prova gratuita*/
+
+.free-trial {
+    min-height: 350px;
+    background-color: #B4D0E7;
+    display: flex;
+    align-items: center;
+    color: #61082B;
+}
+
+.free-trial a {
+    margin: 0;
+    border: none;
+    display: block;
+    text-align: center;
+
+}
+
+.free-trial .w-70 {
+    padding-right: 250px;
 }
