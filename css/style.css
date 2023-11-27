@@ -32,10 +32,12 @@
 }
 
 .reverse-button {
-    color: #0061FF;
+    color: black;
     background-color: #fff;
     padding: 10px 15px;
     display: inline-block;
+    border: 1px solid;
+    margin-top: 30px;
 
 }
 
@@ -97,6 +99,11 @@ ul li {
 .duration {
     display: block;
     color: rgb(128, 128, 128, );
+}
+
+h2 {
+    font-size: 2.4rem;
+    margin-bottom: 30px;
 }
 
 h3 {
@@ -172,6 +179,11 @@ a img {
 }
 
 /*business-plans*/
+.h2-container {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
 
 .business-plans {
     display: flex;
@@ -230,6 +242,11 @@ a img {
     display: block;
     text-align: center;
 
+}
+
+/*partner*/
+.small-container .w-40 {
+    padding: 50px;
 }
 
 /*business-operation*/
