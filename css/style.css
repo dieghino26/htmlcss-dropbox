@@ -183,16 +183,16 @@ a img {
 
 /*jumbotron*/
 .jumbotron {
-    margin-top: 80px;
     display: flex;
     justify-content: center;
     min-height: 750px;
     background-color: #B4D0E7;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
-.big-container {
+.jumbotron .big-container {
     display: flex;
+    translate: 0px 150px;
 
 }
 
@@ -202,16 +202,13 @@ a img {
 }
 
 .w-30 a {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .fa-arrow-down {
-    margin-top: 150px;
+    margin-top: 130px;
 }
 
-.w-70 img {
-    translate: 0px 70px;
-}
 
 /*business-plans*/
 .h2-container {
